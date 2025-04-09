@@ -1,0 +1,10 @@
+# Go to src/
+python -m venv env
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+env/Scripts/activate.ps1
+python -m pip install --upgrade pip
+
+#pip freeze > requirements.txt
+
+pip install -r requirements.txt
+python app.py
